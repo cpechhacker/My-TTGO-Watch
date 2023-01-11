@@ -25,6 +25,8 @@
 #include "app/alarm_clock/alarm_clock.h"
 #include "app/compass/compass_app.h"
 
+#include <Adafruit_NeoPixel.h>
+
 #if defined( NATIVE_64BIT )
     /**
      * for non arduino
